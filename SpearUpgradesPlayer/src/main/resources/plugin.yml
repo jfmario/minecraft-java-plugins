@@ -1,0 +1,6 @@
+name: SpearUpgradesPlayer
+version: '${project.version}'
+main: com.johnfmarion.spearupgradesplayer.SpearUpgradesPlayer
+api-version: '1.21.11'
+description: Kill players with spears to upgrade them. Die and lose a tier.
+authors: [SpearPlugin]
