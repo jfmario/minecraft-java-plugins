@@ -1,0 +1,6 @@
+name: MomentumSpeed
+main: com.johnfmarion.momentumspeed.MomentumSpeedPlugin
+version: 1.0.0
+api-version: "1.21"
+description: Increases player speed while moving and resets it when the player stops.
+author: Birdnamedlarry

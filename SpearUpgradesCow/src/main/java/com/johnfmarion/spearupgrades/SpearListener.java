@@ -42,11 +42,11 @@ public class SpearListener implements Listener {
     }
 
     // -------------------------------------------------------------------------
-    // Cow kill with spear -> upgrade one tier
+    // Player kill with spear -> upgrade one tier.
     // -------------------------------------------------------------------------
     @EventHandler
     public void onEntityDeath(EntityDeathEvent event) {
-        if (!(event.getEntity() instanceof Cow)) return;
+        if (!(event.getEntity() instanceof Player)) return;
 
         Player killer = event.getEntity().getKiller();
         if (killer == null) return;
